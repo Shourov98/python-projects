@@ -1,17 +1,27 @@
 # NER Project 
-Firstly, git clone it to your own machine
+The purpose of a Named Entity Recognition (NER) project is to automatically identify and classify named entities within a given text. Named entities are specific entities that have names and refer to real-world objects, such as people, organizations, locations, dates, and more. 
 
-`https://github.com/Shourov98/python-projects/edit/main/NER-project`
+## Cloning of Project Directory
 
-This Project done in vertual environment. So, to run this project virtual environment need to be create. This must be create inside NER-project directory.
+`https://github.com/Shourov98/python-projects/edit/main/NER-project
+cd NER-project
+`
 
-`python -m venv (virtual directory name)`
+## Getting Started
 
-After that, requirements.txt file
+Instructions on how to set up and run this NER project. Include any dependencies, installation steps, and commands.
 
-### To install Requirements.txt
-Run the below command in CMD
+### Step-1 : Creating Virtual Environment
+`python -m venv venv`
+
+### Step-2 : Activation of virtual Environment
+`venv\Scripts\activate`
+
+### Step-3 : Installing Dependencies
 `pip install -r requirements.txt`
 
-Then open ner-1.ipynb file and run this. 
+Now, `ner-1.ipynb` file is ready to run.
+
+
+
 
