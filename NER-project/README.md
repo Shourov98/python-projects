@@ -4,6 +4,7 @@ The purpose of a Named Entity Recognition (NER) project is to automatically iden
 ## Cloning of Project Directory
 
 `https://github.com/Shourov98/python-projects/edit/main/NER-project`
+
 `cd NER-project`
 
 ## Getting Started
