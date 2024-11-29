@@ -8,7 +8,7 @@ class BankAccount:
             print("Deposit amount must be greater than 0.")
         else:
             self.balance += amount
-            print(f"Deposit successful! New balance: ${self.balance:.2f}")
+            print(f"Deposit successful! New balance: {self.balance:.2f} Taka")
 
     def withdraw(self, amount):
         if amount <= 0:
@@ -17,7 +17,7 @@ class BankAccount:
             print("Insufficient balance. Transaction failed.")
         else:
             self.balance -= amount
-            print(f"Withdrawal successful! New balance: ${self.balance:.2f}")
+            print(f"Withdrawal successful! New balance: {self.balance:.2f} Taka")
 
     def get_balance(self):
         print(f"Current balance: {self.balance:.2f} Taka")
@@ -33,7 +33,7 @@ account = BankAccount(DEFAULT_USER_NAME, DEFAULT_INITIAL_BALANCE)
 def banking_menu():
     print("\nWelcome to the Banking Management System")
     print(f"Account Holder: {account.holder_name}")
-    print(f"Initial Balance: ${account.balance:.2f}")
+    print(f"Initial Balance: {account.balance:.2f} Taka")
     
     while True:
         print("\nChoose an operation:")
