@@ -23,14 +23,13 @@ class BankAccount:
         print(f"Current balance: ${self.balance:.2f}")
 
 
-# Default user details
 DEFAULT_USER_NAME = "John Doe"
 DEFAULT_INITIAL_BALANCE = 1000.00
 
-# Create a bank account instance with default values
+
 account = BankAccount(DEFAULT_USER_NAME, DEFAULT_INITIAL_BALANCE)
 
-# Menu-driven interface
+
 def banking_menu():
     print("\nWelcome to the Banking Management System")
     print(f"Account Holder: {account.holder_name}")
