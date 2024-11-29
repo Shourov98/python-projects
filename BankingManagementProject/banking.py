@@ -20,10 +20,10 @@ class BankAccount:
             print(f"Withdrawal successful! New balance: ${self.balance:.2f}")
 
     def get_balance(self):
-        print(f"Current balance: ${self.balance:.2f}")
+        print(f"Current balance: {self.balance:.2f} Taka")
 
 
-DEFAULT_USER_NAME = "John Doe"
+DEFAULT_USER_NAME = "Shourov"
 DEFAULT_INITIAL_BALANCE = 1000.00
 
 
@@ -45,10 +45,10 @@ def banking_menu():
         try:
             choice = int(input("Enter your choice (1-4): "))
             if choice == 1:
-                amount = float(input("Enter amount to deposit: $"))
+                amount = float(input("Enter amount to deposit: "))
                 account.deposit(amount)
             elif choice == 2:
-                amount = float(input("Enter amount to withdraw: $"))
+                amount = float(input("Enter amount to withdraw: "))
                 account.withdraw(amount)
             elif choice == 3:
                 account.get_balance()
