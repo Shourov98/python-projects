@@ -1,0 +1,15 @@
+=======================================
+Contact Book Manager File Structure
+=======================================
+
+  contact_book_manager
+  |
+  |___ contacts.py      // Contact Manager Class to create object and execute contact manager functions
+  |
+  |___ file_handler.py  // Handles csv file contacts reads and writes contacts
+  |
+  |___ main.py          // Execute whole through main function by creating contact object
+  |
+  |___ menu.py          // Display Menu creates Contacts object and execute methods
+  |
+  |___ contacts.csv     // saves contact 
